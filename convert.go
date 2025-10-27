@@ -515,6 +515,7 @@ func FileReaderFromFile(filename string) (FileReader, error) {
 	if err != nil {
 		return FileReader{}, err
 	}
+	defer f.Close()
 	data, err := io.ReadAll(f)
 	if err != nil {
 		return FileReader{}, err
