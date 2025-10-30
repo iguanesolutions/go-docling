@@ -6,8 +6,16 @@ Go bindings for [docling-serve](https://github.com/docling-project/docling-serve
 
 You can install the Docling Go Library using `go get`:
 
+Lastest version:
+
 ```sh
 go get github.com/iguanesolutions/go-docling@latest
+```
+
+Specific version:
+
+```sh
+go get github.com/iguanesolutions/go-docling@v0.1.2
 ```
 
 ## Usage
